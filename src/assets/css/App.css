@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&display=swap');
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(../img/Background-Image.png) no-repeat;
+  background-size: cover;
+}
+
+.form {
+  width: 19%;
+  position: relative;
+  margin: 250px 150px;
+}
+
+.input {
+  width: 368px;
+  height: 60px;
+
+  border: none;
+
+  background: rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(2px);
+  border-radius: 4px;
+
+  padding-left: 17px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 80px;
+  color: #fff;
+}
+
+.input-container {
+  clear: both;
+}
+
+.input-container label {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  opacity: 0.5;
+
+  position: relative;
+  width: 30px;
+  height: 16px;
+
+  top: 25px;
+  left: 16px;
+  float: left;
+  
+  z-index: 2;
+}
+
+.btn {
+  width: 85px;
+  height: 36px;
+
+  border-radius: 44px;
+  border: none;
+  background-color: #fff;
+
+  color: #B22E6F;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+
+  position: absolute;
+  left: 285px;
+  bottom: 13px;
+}
+.btn:hover {
+  background-color: #B22E6F;
+
+  color: #fff;
+}
+
+.logo-div {
+  display: inline-flex;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.font-title {
+  font-size: 26px;
+  line-height: 40px;
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+  margin-left: 16px;
+}
